@@ -1,0 +1,41 @@
+article.post {
+  border: 1px solid #CCCCCC;
+  padding: 1.2em;
+  border-radius: 10px;
+  margin-bottom: 3em;
+}
+
+h2.post-title{
+  [class*="foundicon-"] {
+    color: $blue;
+    position: relative;
+    top:7px;
+  }
+}
+.post-meta.row {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-weight: lighter;
+}
+.tags {
+  float: right;
+}
+
+.post-template{
+  article.post{
+    border:none;
+  }
+  main.content{
+    padding-bottom: 3em;
+  }
+}
+
+footer.post-footer{
+.author-img img {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  border: 3px solid $offwhite;
+}
+
+}

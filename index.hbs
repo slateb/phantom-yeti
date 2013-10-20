@@ -1,0 +1,30 @@
+{{!< default}}
+
+{{> header}}
+
+<main class="content row" role="main">
+
+    {{#foreach posts}}
+
+    <article class="{{post_class}} small-10 small-centered columns">
+        <header class="post-header">
+            <h2 class="post-title"><i class="foundicon-page"></i> <a href="{{url}}">{{{title}}}</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p>{{excerpt}}&hellip;</p>
+        </section>
+        <div class="post-meta row">
+            <span class="post-time">Posted on <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMM DD YYYY"}}</time> </span>
+            <span class="tags"> {{#if tags}} Tagged: {{tags separator=", " }} {{/if}} </span>
+        </div>
+    </article>
+
+    {{/foreach}}
+
+    {{#if pagination}}
+     {{{pagination}}}
+    {{/if}}
+
+</main>
+
+{{> footer}}

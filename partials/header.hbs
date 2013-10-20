@@ -1,0 +1,17 @@
+{{#if @blog.cover}}
+<header id="site-head" style="background-image: url({{@blog.cover}})">
+        <div id="site-head-content" class="row">
+              {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+              <h1 class="blog-title">{{@blog.title}}</h1>
+              <h4 class="blog-description subheader">{{@blog.description}}</h2>
+        </div>
+</header>
+{{else}}
+<header id="site-head" class="stock">
+        <div id="site-head-content" class="row">
+              {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+              <a href="{{@blog.url}}"><h1 class="blog-title">{{@blog.title}}</h1></a>
+              <h4 class="blog-description subheader">{{@blog.description}}</h2>
+        </div>
+</header>
+{{/if}}

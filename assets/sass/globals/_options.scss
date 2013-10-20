@@ -1,0 +1,23 @@
+$blue: #9dd9e3;
+$darkblue: #3f6d85;
+$red: #f15e64;
+$yellow: #e1de7d;
+$offwhite: #f5f5ed;
+$dark: #494949;
+
+.post-share{
+  .hidden{
+    display: none;
+  }
+  a{
+    position: relative;
+    top:4px;
+    margin-left: 12px;
+  }
+}
+
+.pagination {
+text-align: center;
+padding-bottom: 3em;
+color: $yellow;
+}
