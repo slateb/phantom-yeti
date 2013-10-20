@@ -3,7 +3,7 @@
 
 
 
-This a starter theme with some minimal styling added. The theme is loaded with all of Foundation's amazing SASS and Javascript components. Due to Ghost's preloading of jQuery it's not setup for using Zepto.
+This a starter theme with some minimal styling added. The theme is loaded with all of Foundation's amazing SASS and Javascript components. Due to Ghost's preloading of jQuery it's not setup for using Zepto. The theme is also preloaded with Foundicons Enclosed and Social set.
 
 Check out [Ghost Docs](http://docs.ghost.org) to get started with Ghost.  
 And check out [Foundation's docs](http://foundation.zurb.com/docs/) for how to take this theme to the next level, or just start hacking it up.
